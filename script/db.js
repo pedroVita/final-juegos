@@ -15,7 +15,7 @@ export const DBproductos=[
         nombre:"Batlefield 6",
         stock:100,
         precio:5000,
-        imagen:"src/juegos/shooter/bf.jpg",
+        imagen:"/src/juegos/shooter/bf.jpg",
         categoria:"shooter"
 
     },
