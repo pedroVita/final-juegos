@@ -5,7 +5,7 @@ export const DBproductos=[
         nombre:"Minecraft",
         stock:100,
         precio:5000,
-        imagen:"/src/juegos/ssandbox/mc.jpg",
+        imagen:"src/juegos/ssandbox/mc.jpg",
         categoria:"sandbox"
 
 
