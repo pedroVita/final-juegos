@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>NG Juegos</title>
+</head>
+
+<body>
+    <header class="encabezado">
+
+        <div class="titulo">
+            <div><img src="src/logo.png" alt="logo"></div>
+            <h4>NG juegos</h4>
+        </div>
+
+        <nav class="menu">
+            <a href="pages/galeria.html">galeria</a>
+            <a href="#">productos</a>
+            <a class="BtnContactos" href="pages/contacto.html">contactos</a>
+        </nav>
+
+    </header>
+    <main>
+
+
+
+        <div class="intermedio">
+            <div class="texto">
+                <h2>Juegos de PC y consola</h2>
+                <!-- <h3>"en la variedad esta el gusto"</h3> -->
+            </div>
+
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="src/img-carusel-1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="src/img-carusel-2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="src/img-carusel-3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+
+        <form action="" method="post" id="formulario">
+            <label for="Nombre">Buscar Producto:</label>
+            <input type="text" name="nombre" id="Nombre" placeholder="@Grand theft auto 6">
+            <button type="button" class="btn-categoria activo" data-categoria="todos">Todos</button>
+            <button type="button" class="btn-categoria" data-categoria="sandbox">Sandbox</button>
+            <button type="button" class="btn-categoria" data-categoria="rpg">RPG</button>
+            <button type="button" class="btn-categoria" data-categoria="shooter">Shooter</button>
+            <button type="button" class="btn-categoria" data-categoria="carreras">Carreras</button>
+       
+        </form>
+
+
+
+        <section class="tarjetas">
+
+
+
+        </section>
+
+    </main>
+    <footer>
+        <div class="descripcionGeneral">
+            <div class="descripcion">
+                <img src="src/logo.png" alt="">
+                <h5>NG juegos</h5>
+
+
+            </div>
+            <div class="descripcion2">
+                <h6>juegos de consola y PC</h6>
+            </div>
+            <div class="copyright">
+                <img src="src/copyright.png" alt="copyright">
+                <h6>2026 NG juegos. Todos los derechos reservados</h6>
+            </div>
+        </div>
+
+        <img src="" alt="">
+        <div class="contactos">
+            <h5>juegos@gmail.com</h5>
+            <h5>11 5555-5555</h5>
+            <div class="redes">
+                <img src="src/redes/facebook.png" alt="">
+                <img src="src/redes/insta.png" alt="">
+                <img src="src/redes/twitter.png" class="twitter" alt="">
+            </div>
+        </div>
+
+
+    </footer>
+
+
+
+
+
+     <script type="module" src="script/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
