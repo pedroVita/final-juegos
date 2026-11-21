@@ -15,7 +15,7 @@ export const DBproductos=[
         nombre:"Batlefield 6",
         stock:100,
         precio:5000,
-        imagen:"/src/juegos/shooter/bf.jpg",
+        imagen:"src/juegos/shooter/bf.jpg",
         categoria:"shooter"
 
     },
@@ -24,7 +24,7 @@ export const DBproductos=[
         nombre:"Elden Ring",
         stock:100,
         precio:5000,
-        imagen:"/src/juegos/rpg/er.jpg",
+        imagen:"src/juegos/rpg/er.jpg",
         categoria:"rpg"
     },
     {
@@ -32,7 +32,7 @@ export const DBproductos=[
         nombre:"Forza Horizon 6",
         stock:100,
         precio:5000,
-        imagen:"/src/juegos/carreras/fh6.jpg",
+        imagen:"src/juegos/carreras/fh6.jpg",
         categoria:"carreras"
     },
     {
@@ -40,7 +40,7 @@ export const DBproductos=[
         nombre:"Grand Theft Auto 6",
         stock:100,
         precio:4000,
-        imagen:"/src/juegos/ssandbox/gta6.jpg",
+        imagen:"src/juegos/ssandbox/gta6.jpg",
         categoria:"sandbox"
     },
     {
@@ -48,7 +48,7 @@ export const DBproductos=[
         nombre:"Assetto Corsa Rally",
         stock:100,
         precio:4000,
-        imagen:"/src/juegos/carreras/acr.jpg",
+        imagen:"src/juegos/carreras/acr.jpg",
         categoria:"carreras"
     },
     {
@@ -56,7 +56,7 @@ export const DBproductos=[
         nombre:"Ultrakill",
         stock:100,
         precio:4000,
-        imagen:"/src/juegos/shooter/uk.jpg",
+        imagen:"src/juegos/shooter/uk.jpg",
         categoria:"shooter"
     },
     {
@@ -64,7 +64,7 @@ export const DBproductos=[
         nombre:"Skyrim",
         stock:100,
         precio:4000,
-        imagen:"/src/juegos/rpg/skyrim.jpg",
+        imagen:"src/juegos/rpg/skyrim.jpg",
         categoria:"rpg"
     },
     {
@@ -72,7 +72,7 @@ export const DBproductos=[
         nombre:"Red Dead Redemtion 2",
         stock:100,
         precio:2000,
-        imagen:"/src/juegos/ssandbox/rdr2.jpg",
+        imagen:"src/juegos/ssandbox/rdr2.jpg",
         categoria:"sandbox"
     },
     {
@@ -80,7 +80,7 @@ export const DBproductos=[
         nombre:"MXGP",
         stock:100,
         precio:2000,
-        imagen:"/src/juegos/carreras/mxgp.jpg",
+        imagen:"src/juegos/carreras/mxgp.jpg",
         categoria:"carreras"
     },
     {
@@ -88,7 +88,7 @@ export const DBproductos=[
         nombre:"Call of Duty: Modern Warfare 4",
         stock:100,
         precio:2000,
-        imagen:"/src/juegos/shooter/cod.jpg",
+        imagen:"src/juegos/shooter/cod.jpg",
         categoria:"shooter"
     },
     {
@@ -96,7 +96,7 @@ export const DBproductos=[
         nombre:"Baldurs Gate 3",
         stock:100,
         precio:2000,
-        imagen:"/src/juegos/rpg/bg3.jpg",
+        imagen:"src/juegos/rpg/bg3.jpg",
         categoria:"rpg"
     },
 
@@ -105,7 +105,7 @@ export const DBproductos=[
         nombre:"Crimson Desert",
         stock:100,
         precio:2000,
-        imagen:"/src/juegos/ssandbox/cd.jpg",
+        imagen:"src/juegos/ssandbox/cd.jpg",
         categoria:"sandbox"
     },
     {
@@ -113,7 +113,7 @@ export const DBproductos=[
         nombre:"Tokyo Xtreme Racer",
         stock:100,
         precio:2000,
-        imagen:"/src/juegos/carreras/txr.jpg",
+        imagen:"src/juegos/carreras/txr.jpg",
         categoria:"carreras"
     },
     {
@@ -121,7 +121,7 @@ export const DBproductos=[
         nombre:"Counterstrike 2",
         stock:100,
         precio:2000,
-        imagen:"/src/juegos/shooter/cs2.jpg",
+        imagen:"src/juegos/shooter/cs2.jpg",
         categoria:"shooter"
     },
     {
@@ -129,7 +129,7 @@ export const DBproductos=[
         nombre:"Path of Exile 2",
         stock:100,
         precio:2000,
-        imagen:"/src/juegos/rpg/poe2.jpg",
+        imagen:"src/juegos/rpg/poe2.jpg",
         categoria:"rpg"
     }
 ]
